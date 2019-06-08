@@ -2,8 +2,9 @@ os: osx
 sudo: required
 addons:
   homebrew:
+    taps: zhaofeng-shu33/liblemonformula
     packages:
-      - python
+      - zhaofeng-shu33/liblemonformula/python      
 install:
   - sudo python3 -m pip install info_cluster sklearn networkx six ete3
 script:
