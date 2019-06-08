@@ -12,7 +12,8 @@ script:
   - python3 -c "from info_cluster import psp;print(psp.__version__)"
   - python3 -c "from info_cluster import InfoCluster"
   - python3 test.py
-  - brew reinstall zhaofeng-shu33/liblemonformula/python
+  - brew uninstall python
+  - brew install zhaofeng-shu33/liblemonformula/python
   - sudo python3 -m pip install info_cluster sklearn networkx six ete3  
   - python3 -c "from info_cluster import psp;print(psp.__version__)"
   - python3 -c "from info_cluster import InfoCluster"
