@@ -5,7 +5,7 @@ addons:
     packages:
       - python
 install:
-  - sudo python3 -m pip install info_cluster
+  - sudo python3 -m pip install info_cluster sklearn networkx six ete3
 script:
 # used for testing
   - curl https://raw.githubusercontent.com/zhaofeng-shu33/info-clustering-python-binding/master/graph_cut_py_test.py -o test.py
