@@ -11,5 +11,5 @@ script:
   - curl https://raw.githubusercontent.com/zhaofeng-shu33/info-clustering-python-binding/master/graph_cut_py_test.py -o test.py
   - python3 -c "from info_cluster import psp;print(psp.__version__)"
   - python3 -c "from info_cluster import InfoCluster"
-  - python3 run test.py
+  - python3 test.py
   
