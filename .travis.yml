@@ -4,7 +4,7 @@ matrix:
   - osx_image: xcode9.4
   - osx_image: xcode10.2  
 install:
-  - python3 -m pip install info_cluster sklearn networkx six ete3
+  - sudo python3 -m pip install info_cluster sklearn networkx six ete3
 script:
 # used for testing
   - curl https://raw.githubusercontent.com/zhaofeng-shu33/info-clustering-python-binding/master/graph_cut_py_test.py -o test.py
