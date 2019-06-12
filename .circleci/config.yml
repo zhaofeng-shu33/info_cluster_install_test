@@ -27,7 +27,7 @@ jobs:
             python -c "from info_cluster import InfoCluster"
             python test.py            
 workflows:
-  version:2
+  version: 2
   build_and_test:
     jobs:
       - build-py36
