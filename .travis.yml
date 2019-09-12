@@ -9,6 +9,6 @@ script:
 # used for testing
   - curl https://raw.githubusercontent.com/zhaofeng-shu33/info-clustering-python-binding/master/info_cluster/test_info_cluster.py -o test.py
   - python3 --version
-  - python3 -c "import pspartiton; print(pspartiton.__version__)"
+  - python3 -c "import pspartition; print(pspartition.__version__)"
   - python3 -c "from info_cluster import InfoCluster"
   - python3 test.py
