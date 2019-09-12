@@ -5,7 +5,7 @@ install:
 
     C:\Python36-x64\python.exe -m pip install info_cluster
 
-    curl https://raw.githubusercontent.com/zhaofeng-shu33/info-clustering-python-binding/master/graph_cut_py_test.py -o test.py
+    curl https://raw.githubusercontent.com/zhaofeng-shu33/info-clustering-python-binding/master/info_cluster/test_info_cluster.py -o test.py
 build: off
 test_script:
 - cmd: >-
