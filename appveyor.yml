@@ -1,9 +1,9 @@
 version: 1.0.{build}
 install:
 - cmd: >-
-    C:\Python37-x64\python.exe -m pip install info_cluster
+    C:\Python37-x64\python.exe -m pip install info_cluster six
 
-    C:\Python36-x64\python.exe -m pip install info_cluster
+    C:\Python36-x64\python.exe -m pip install info_cluster six
 
     curl https://raw.githubusercontent.com/zhaofeng-shu33/info-clustering-python-binding/master/info_cluster/test_info_cluster.py -o test.py
 build: off

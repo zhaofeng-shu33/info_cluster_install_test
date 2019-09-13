@@ -4,7 +4,7 @@ matrix:
   - osx_image: xcode9.4
   - osx_image: xcode10.2  
 install:
-  - sudo python3 -m pip install info_cluster
+  - sudo python3 -m pip install info_cluster six
 script:
 # used for testing
   - curl https://raw.githubusercontent.com/zhaofeng-shu33/info-clustering-python-binding/master/info_cluster/test_info_cluster.py -o test.py
